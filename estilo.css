@@ -1,0 +1,243 @@
+
+body {
+    font-family: Helvetica;
+}
+.banner {
+    background-image: url("capa2.jpg");
+    background-position: center;
+    position: relative;
+    height: 600px;
+    width: 100%;
+   
+}
+
+/*Container1*/
+
+.container1 {
+    height: 200px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.8);
+    position:absolute;
+    right: 100px;
+    bottom:250px;
+    text-align: center;
+
+}
+
+.texto-logotipo {
+    padding-top: 65px;
+    color:#fff;
+}
+
+.texto-logotipo h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.texto-logotipo p {
+    font-size: 20px;
+}
+
+/*Container2*/
+
+.container2 {
+    position: absolute;
+    bottom: 0;
+    background-color: #DDD;
+    width: 100%;
+    height: 175px;
+    opacity: 0.9;
+}
+
+.texto-welcome {
+    padding-top: 30px;
+    width: 580px;
+    padding-left: 10%;
+    
+}
+
+.texto-welcome h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/*Serviços*/
+
+.servicos {
+    max-width: 1200px;
+    height: 600px;
+    padding: 30px 10%;
+    padding-bottom: 0;
+    
+}
+
+.caixa {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    position: relative;
+    clear: both;
+}
+
+.caixa-title {
+    width: 20%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    line-height: 150px;
+    box-sizing: border-box;
+}
+
+.caixa-title h3 {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 35px;
+    color:#fff
+}
+
+.caixa-text {
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.caixa-text h3 {
+    color: #000;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.azul-claro {
+    background-color: rgb(50, 112, 112);
+}
+
+#azul-claro {
+    color: rgb(50, 112, 112);
+}
+
+.azul-escuro {
+    background-color: navy;
+}
+
+#azul-escuro {
+    color: navy;
+}
+
+.azul-royal {
+    background-color: royalblue;
+}
+
+#azul-royal {
+    color: royalblue;
+}
+
+/*Chuteira*/
+
+.footer {
+    background-image: url("rodape.jpg");
+    background-position: center;
+    width: 100%;
+    height: 926px;
+}
+
+.about-container {
+    max-width: 1200px;
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
+
+.about-card {
+    float: left;
+    width: 30%;
+    padding: 5px 10px;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.middle-card {
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.about-card p {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    text-align: left;
+}
+
+/*formulário*/
+
+.chuteira {
+    clear: both;
+    max-width: 1200px;
+    height: 500px;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.form-container {
+    width: 65%;
+    height: 375px;
+    position: relative;
+    display: block;
+    margin-left: 50px;
+
+}
+
+.form-background {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.form-container form {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 300px;
+}
+
+.form-container input, .form-container textarea {
+    width: 300px;
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #AAA;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-container textarea {
+    height: 120px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color:#000
+}
+
+.form-container .submit {
+    width: 50%;
+    background-color: #222;
+    color:#FFF;
+    border: 1px solid transparent;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    transition: .5s
+}
+
+.form-container .submit:hover {
+    background-color: #FFF;
+    color:#222;
+    border: 1px solid #222
+}
